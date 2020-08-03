@@ -20,29 +20,4 @@ pipeline {
 		
 	}
 	
-		stage('Test stage ')
-			{
-			steps
-			{
-				echo 'Test the application...'			
-			}
-			
 		
-		
-		
-	}	
-	
-		stage('Deploy stage ')
-		{
-		
-			steps
-			{
-				echo 'Deploy the application ...'			
-			}
-			
-		
-	}
-		
-}	
-	
-	
