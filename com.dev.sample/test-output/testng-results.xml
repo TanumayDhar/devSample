@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" total="3" passed="3">
+  <reporter-output>
+    <line>
+      <![CDATA[Browser is launched]]>
+    </line>
+    <line>
+      <![CDATA[Browser is maximized]]>
+    </line>
+    <line>
+      <![CDATA[Url is hit]]>
+    </line>
+    <line>
+      <![CDATA[Google]]>
+    </line>
+    <line>
+      <![CDATA[Browser is closed]]>
+    </line>
+  </reporter-output>
+  <suite name="SampleTestSuite01" duration-ms="13226" started-at="2020-08-03T08:01:50Z" finished-at="2020-08-03T08:02:03Z">
+    <groups>
+    </groups>
+    <test name="SampleSelTest" duration-ms="13226" started-at="2020-08-03T08:01:50Z" finished-at="2020-08-03T08:02:03Z">
+      <class name="com.dev.sample.SampleSelTest">
+        <test-method status="PASS" signature="LaunchBrowser()[pri:1, instance:com.dev.sample.SampleSelTest@25a65b77]" name="LaunchBrowser" duration-ms="6020" started-at="2020-08-03T13:31:50Z" finished-at="2020-08-03T13:31:56Z">
+          <reporter-output>
+            <line>
+              <![CDATA[Browser is launched]]>
+            </line>
+            <line>
+              <![CDATA[Browser is maximized]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- LaunchBrowser -->
+        <test-method status="PASS" signature="Urlhit()[pri:2, instance:com.dev.sample.SampleSelTest@25a65b77]" name="Urlhit" duration-ms="3002" started-at="2020-08-03T13:31:56Z" finished-at="2020-08-03T13:31:59Z">
+          <reporter-output>
+            <line>
+              <![CDATA[Url is hit]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- Urlhit -->
+        <test-method status="PASS" signature="CloseBrowser()[pri:3, instance:com.dev.sample.SampleSelTest@25a65b77]" name="CloseBrowser" duration-ms="4178" started-at="2020-08-03T13:31:59Z" finished-at="2020-08-03T13:32:03Z">
+          <reporter-output>
+            <line>
+              <![CDATA[Google]]>
+            </line>
+            <line>
+              <![CDATA[Browser is closed]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- CloseBrowser -->
+      </class> <!-- com.dev.sample.SampleSelTest -->
+    </test> <!-- SampleSelTest -->
+  </suite> <!-- SampleTestSuite01 -->
+</testng-results>
