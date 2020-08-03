@@ -43,6 +43,7 @@
             //bat label: '', script: 'C:\\PROGRA~2\\apache-maven-3.6.3\\bin\\mvn clean org.jacoco:jacoco-maven-plugin:prepare-agent install -Dmaven.test.failure.ignore=false'  
               
             // junit 'C:/Personal/Workspace/com.dev.sample/testReport.xml'
+             junit 'myproject/target/test-reports/test.xml'
              mail bcc: '', body: 'Test', cc: '', from: '', replyTo: '', subject: 'Test', to: 'dhartanumay@gmail.com'
              
                 echo 'Test and Deploying in server...'
